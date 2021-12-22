@@ -9,10 +9,10 @@ The purpose of the analysis is to assist Louise to determine how different campa
 
 ### Analysis of Outcome based on Launch Dates
 The first analysis looked at successful, failed, and canceled campaigns by month using a pivot table and line chart.  We created filters to look specifically at the theater campaign and used the years columns to convert to months. 
-![image](https://github.com/ExcelChallenge1/Theater_Outcomes_vs_Launch.png)
+![image]https://github.com/bradrobe/ExcelChallenge1/blob/main/Outcomes_vs_Goals.png
 ### Analysis of Outcomes Based on Goals
 Our next analysis was to determine the impact different levels of funding goals could have on outcome of plays within the Theater campaign.
-![image](https://github.com/ExcelChallenge1/Outcome_vs_Goals.png)
+![image]https://github.com/bradrobe/ExcelChallenge1/blob/main/Outcome_vs_Goals.png)
 ### Challenges and Difficulties Encountered
 One challenge was creating a Years column in the dataset.  We began by creating a column for Date Created Conversion because the original column for beginning dates contained UNIX timestamps and had to be converted with the Date formula. =(((J2011/60)/60)/24)+DATE(1970,1,1)
 After pulling the created date we used the YEAR() function which allowed us to change the column to the beginning month of each campaign.  =YEAR(S2011)
